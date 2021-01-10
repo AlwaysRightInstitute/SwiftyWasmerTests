@@ -8,8 +8,7 @@ let package = Package(
   products: [],
   
   dependencies: [
-    // https://github.com/AlwaysRightInstitute/SwiftyWasmer
-    .package(url: "file:///Users/helge/dev/Swift/ARI/SwiftyWasmer/", 
+    .package(url: "https://github.com/AlwaysRightInstitute/SwiftyWasmer", 
              .branch("develop"))
   ],
   
